@@ -1,0 +1,71 @@
+@import './ColorStyles.scss';
+
+.allprojects {
+    width: 100%;
+//padding: 0em 3em;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.skills-list{
+    display: flex;
+    gap: 2em;
+}
+
+.line{
+    color: $green-100;
+}
+
+ .content {
+    display: flex;
+    flex-direction: column;
+  //  grid-template-columns: repeat(3,1fr);
+   // grid-gap: 20px;
+   
+}
+
+.card {
+    border: 1px solid $green-300;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgb(0,0,0,.2);
+    height: 400px;
+    display: flex;
+}
+
+.allprojects img {
+    border-radius: 50px;
+}
+
+
+.allprojects .card p {
+    color: #787878;
+    font-size: 1.1rem;
+    margin: 12px;
+}
+
+.allprojects .card span {
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 940px) {
+    .allprojects .container {
+        width: 100%;
+    }
+
+    .allprojects .container .content {
+        grid-template-columns: 1fr;
+    }
+
+    .allprojects .card {
+        max-width: 100%;
+        margin: 1rem;
+    }
+}
+
+
+

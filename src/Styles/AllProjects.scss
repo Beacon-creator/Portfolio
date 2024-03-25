@@ -1,0 +1,83 @@
+@import './ColorStyles.scss';
+
+.allprojects {
+    width: 100%;
+    padding: 0 4.5em;
+}
+
+.container {
+    margin-top: 1rem;
+    justify-items: center;
+}
+
+h2 {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 1px;
+    padding-right: 40px;
+    color: $green-200;
+}
+h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+    color: $green-200;
+}
+
+.card{
+gap: 2em;
+}
+
+.pro-card {
+    border: 0.5px solid #eee;
+    border-radius: 0 3em;
+  //  box-shadow: 0 1px 10px $green-25;
+    width: 222px;
+    height: 370px;
+ 
+}
+
+hr{
+    margin: 0em 1em;
+}
+
+a{
+    font-size: 13px;
+    color: $green-100;
+}
+
+.prev{
+    list-style: none;
+    gap: 1em;
+    padding: 0em 1em;
+    display: flex;
+    color: $green-100;
+}
+
+.div-describe{
+    color: red;
+}
+
+.div-link{
+    display: flex;
+    gap: 0.5em;
+}
+
+
+@media screen and (max-width: 940px) {
+    .allprojects .container {
+        width: 100%;
+    }
+
+    .allprojects .container .content {
+        grid-template-columns: 1fr;
+    }
+
+    .allprojects .card {
+        max-width: 100%;
+        margin: 1rem;
+    }
+}
+
+
+

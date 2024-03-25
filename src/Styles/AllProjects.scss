@@ -11,16 +11,16 @@
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
     margin-top: 1px;
     padding-right: 40px;
     color: $green-200;
 }
 h3 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
     color: $green-200;
 }
 
@@ -44,6 +44,8 @@ hr{
 a{
     font-size: 13px;
     color: $green-100;
+
+
 }
 
 .prev{
@@ -58,9 +60,14 @@ a{
     color: red;
 }
 
+.content-word{
+    color: red;
+}
+
 .div-link{
     display: flex;
     gap: 0.5em;
+    margin: 10px 0px 0 50px;
 }
 
 

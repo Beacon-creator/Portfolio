@@ -14,9 +14,8 @@ const SummaryPage = () => {
           </p>
           <hr />
           <p className="p2">
-            Software Developer with an eye for detail and a passion for creating
-            amazing digital experiences. I enjoy working on challenging projects
-            that require problem-solving skills and creativity.{" "}
+            Software Developer, and I create apps like mobile, destop and web. 
+            I deal with both frontend and backend aspect of these app. I derive joy in portraying the beauty that efficiency that you desire in your app.{" "}
           </p>
           <hr />
           <p className="p3">

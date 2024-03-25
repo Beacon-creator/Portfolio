@@ -15,7 +15,7 @@ const Footer = () => {
                         <a href='#testimonials'>Testimonials</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#demo'>Demo</a>
+                        <a href='#contact'>Contact</a>
                     </li>
                 </ul>
                 <div className='bottom'>

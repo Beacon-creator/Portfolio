@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/SummaryPage.scss";
 import linkedin from '../assets/LinkedIn1.svg'
 import x from '../assets/LinkedIn.svg'
-import send from '../assets/send.svg'
+import send from '../assets/Send.svg'
 import github from '../assets/github2.svg'
 const SummaryPage = () => {
   return (

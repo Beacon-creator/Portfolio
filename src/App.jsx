@@ -5,10 +5,14 @@ import LandPage from "./Pages/LandPage";
 import SummaryPage from "./Pages/SummaryPage";
 import SkillsPage from "./Pages/SkillsPage";
 import './App.scss';
+import ContactPage from "./Pages/ContactPage";
+import { ThemeProvider } from './ThemeProvider';
 
 
 function App() {
+
   return (
+       <ThemeProvider>
     <div className="body">
     <div>
     <LandPage />
@@ -17,12 +21,14 @@ function App() {
      <SummaryPage/>
      <SkillsPage/>
    <AllProjects/>
+   <ContactPage/>
      </div>
 
     <Footer/>
 
     
     </div>
+    </ThemeProvider>
   );
 }
 

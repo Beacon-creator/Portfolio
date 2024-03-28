@@ -5,7 +5,7 @@
     padding: 0 4.5em;
 }
 
-.container {
+.container1 {
     margin-top: 1rem;
     justify-items: center;
 }
@@ -13,10 +13,10 @@
 h2 {
     font-size: 3rem;
     text-align: center;
-    margin-top: 1px;
-    padding-right: 40px;
+    margin-top: 1em;
     color: $green-200;
 }
+
 h3 {
     font-size: 1rem;
     text-align: center;
@@ -24,16 +24,24 @@ h3 {
     color: $green-200;
 }
 
-.card{
-gap: 2em;
+.card1{
+gap: 4em;
+//display: flex;
+display: grid;
+grid-template-columns: repeat(3, 0.31fr);
 }
 
 .pro-card {
-    border: 0.5px solid #eee;
-    border-radius: 0 3em;
+    margin-right: 0px;
+    border: 0.5px solid $white-500;
+    border-radius: 1em 0 1em 1em;
   //  box-shadow: 0 1px 10px $green-25;
-    width: 222px;
-    height: 370px;
+    width: 300px;
+    height: 400px;
+
+    &:hover{
+        border: 0.5px solid $green-200;
+    }
  
 }
 
@@ -45,6 +53,9 @@ a{
     font-size: 13px;
     color: $green-100;
 
+&:hover{
+    color: $green-200;
+}
 
 }
 
@@ -56,18 +67,24 @@ a{
     color: $green-100;
 }
 
-.div-describe{
-    color: red;
-}
-
-.content-word{
-    color: red;
-}
 
 .div-link{
     display: flex;
+    gap: 4em;
+    margin: 20px 0px 0 20px;
+    text-align: center;
+}
+
+.div-imglink{
+    display: flex;
     gap: 0.5em;
-    margin: 10px 0px 0 50px;
+}
+
+.img-size{
+    width: 100%;
+    background-color: $white-500;
+    border-radius: 1em 0em 1em 0em;
+    height: 30vh;
 }
 
 

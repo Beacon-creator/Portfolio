@@ -45,29 +45,45 @@ h1 {
   color: $white-500;
 
 }
-
-.summary .content .button {
-  margin: 2rem 2rem;
-  width: 120px;
-  height: 40px;
+.summary{
+  margin: 1rem 0;
+}
+.content  {
   align-self: center;
-  background-color: $white-500;
-  border: 1px solid $green-100;
-  border-radius: 10px; // Make the button round
-  padding: 2px; // Adjust padding as needed
-  color: $green-300; // Set text color
-  cursor: pointer;
-
 
 }
 
+.button1 {
+  width: 150px;
+  align-self: center;
+  margin-top: 2em;
+  display: flex;
+  font-size: 14px;
+  align-items: center; /* Align items vertically */
+
+  img {
+    margin-left: 1em;
+    align-self: center;
+    width: 20px; /* Specify width for the image */
+    height: 20px; /* Specify height for the image */
+    transition: filter 0.3s ease; // Add transition for smooth effect
+    outline: none; /* Remove default outline for all images */
+    filter: brightness(1) invert(1); // Apply filter to invert image color
+
+
+  }
+
+  &:hover img {
+    filter: brightness(0) invert(1);
+  }
+}
 
 
 .Profile-Card {
-  margin-top: 140px;
+  margin-top: 160px;
  // width: 300px;
   background-color: $green-300;
-  height: 290px;
+  height: 320px;
   border-radius: 1em;
 }
 
@@ -79,8 +95,8 @@ h1 {
 .circular-image {
   background: url("../assets/pic1b.jpg") no-repeat center center/cover;
   width: 250px; // Adjust the container width
-  height: 250px; // Adjust the container height
-  border-radius: 5%; // Make the container circular
+  height: 270px; // Adjust the container height
+  border-radius: 5% 15%; // Make the container circular
   overflow: hidden;
   border: 1px solid $green-100;
   align-self: center;
@@ -107,13 +123,21 @@ gap: 15px;
 
 }
 .contact-button {
-  background: url("../assets/pic1b.jpg") no-repeat center center/cover;
-  width: 30px; // Adjust the container width
-  height: 30px;
-  margin-right: 10px;
-  overflow: hidden; // Adjust the container height
-  border-radius: 50%;
-  border: 1px solid $green-100;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0.5em;
+  border-radius: 30%;
+
+ img {
+  width: 20px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+
+}
+
+&:hover {
+  filter: brightness(80%); /* Example hover effect */
+  //  filter: brightness(1) invert(1);
+}
 }
 
 
@@ -126,10 +150,14 @@ gap: 15px;
   height: 40px;
   background-color: white;
   border: 1px solid $green-100;
-  border-radius: 10px; // Make the button round
+  border-radius: 5px 10px; // Make the button round
   color: $green-200; // Set text color
   cursor: pointer;
   margin-top: 10px;
+
+  button:hover{
+    color: $white-500;
+  }
 }
 
 @media screen and (max-width: 940px) {

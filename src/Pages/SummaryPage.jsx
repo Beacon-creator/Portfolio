@@ -1,6 +1,9 @@
 import React from "react";
 import "../Styles/SummaryPage.scss";
-
+import linkedin from '../assets/LinkedIn1.svg'
+import x from '../assets/LinkedIn.svg'
+import send from '../assets/send.svg'
+import github from '../assets/github2.svg'
 const SummaryPage = () => {
   return (
     <div className="summary">
@@ -14,19 +17,20 @@ const SummaryPage = () => {
           </p>
           <hr />
           <p className="p2">
-            Software Developer, and I create apps like mobile, destop and web. 
-            I deal with both frontend and backend aspect of these app. I derive joy in portraying the beauty that efficiency that you desire in your app.{" "}
+            Software Developer, and I create mobile, desktop and web apps. 
+            I deal with both frontend and backend aspect of these apps. I derive joy in portraying the beauty and efficiency that you desire in your app.{" "}
           </p>
           <hr />
           <p className="p3">
-            Data analyst with an eye for detail and a passion for creating
-            amazing digital experiences. I enjoy working on challenging projects
-            that require problem-solving skills and creativity.{" "}
+            Data analyst, who excels in cracking datas for futher usage. 
+            I possess a strong analysis sensibility,
+             focusing on crafting catchy stories and visually appealing dashboard..{" "}
           </p>
         </div>
 
-        <button href="/" className="button">
+        <button href="/" className="button1">
           Contact me
+          <img src={send} alt="" />
         </button>
       </div>
       <div className="Profile-Card">
@@ -38,9 +42,15 @@ const SummaryPage = () => {
          
           <div className="left-side">        
             <div className="con-but">
-              <button className="contact-button"></button>
-              <button className="contact-button"></button>
-              <button className="contact-button"></button>
+              <button className="contact-button">
+                <img src={x} alt="" />
+              </button>
+              <button className="contact-button">
+                <img src={github} alt="" />
+              </button>
+              <button className="contact-button">
+                <img src={linkedin} alt="" />
+              </button>
             </div>
 
             <div className="my-stuff">

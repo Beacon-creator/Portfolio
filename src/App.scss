@@ -1,5 +1,19 @@
+@import "./Styles/ColorStyles.scss";
+
 .body{
   overflow-x: hidden;
     overflow-y: hidden;
     background-color: black;
+}
+
+
+/* App.css */
+.light-theme {
+ // background-color: red;
+  color: var(--text-color);
+}
+
+.dark-theme {
+  background-color: yellow;
+  color: var(--text-color);
 }

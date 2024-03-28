@@ -1,0 +1,68 @@
+@import './ColorStyles.scss';
+
+
+.contact-page {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cen{
+    font-size: 3rem;
+    color: $green-200;
+    text-align: center;
+}
+
+.form-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 10px;
+    background-color: $green-300;
+    border-radius: 16px 0px;
+    box-shadow: 0 0 10px $green-25;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+.pp{
+    font-size: 20px;
+    color: $white-500;
+}
+.spann{
+
+    color: $green-100;
+    font-weight: 600;
+    font-size: 30px;
+}
+input, textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: $white-500;
+    color: $green-300;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: $green-100;
+    color: $white-500;
+}
